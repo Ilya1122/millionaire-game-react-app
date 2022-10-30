@@ -13,10 +13,6 @@
     flex-direction: column;
     justify-content: space-between;
 
-
-
-
-
     .game__question {
       font-family: $fontFamily;
       font-style: normal;
@@ -43,7 +39,7 @@
       padding: 15px;
       align-items: center;
       justify-content: space-around;
-      width: 100%;
+      width: 80%;
 
       .game__question {
         width: 100%;

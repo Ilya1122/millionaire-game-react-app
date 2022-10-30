@@ -3,6 +3,7 @@
 .rewards__list {
   background-color: $primary-white;
   width: 376px;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   display: flex;
