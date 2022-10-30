@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/millionaire-game-react-app/static/css/main.3dc5e9c6.css",
+    "main.css": "/millionaire-game-react-app/static/css/main.58cef8f4.css",
     "main.js": "/millionaire-game-react-app/static/js/main.63029fb0.js",
     "static/media/Inter.ttf": "/millionaire-game-react-app/static/media/Inter.aadb65ac45347ff46699.ttf",
     "static/media/hand.png": "/millionaire-game-react-app/static/media/hand.db4d6f4e02e7ae1edee3.png",
@@ -8,11 +8,11 @@
     "static/media/close.svg": "/millionaire-game-react-app/static/media/close.46c988ed96b5dff532f35b64d057e9c3.svg",
     "index.html": "/millionaire-game-react-app/index.html",
     "static/media/menu.svg": "/millionaire-game-react-app/static/media/menu.4cc3cba447218668ce9e22ca3a4cea9b.svg",
-    "main.3dc5e9c6.css.map": "/millionaire-game-react-app/static/css/main.3dc5e9c6.css.map",
+    "main.58cef8f4.css.map": "/millionaire-game-react-app/static/css/main.58cef8f4.css.map",
     "main.63029fb0.js.map": "/millionaire-game-react-app/static/js/main.63029fb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dc5e9c6.css",
+    "static/css/main.58cef8f4.css",
     "static/js/main.63029fb0.js"
   ]
 }
