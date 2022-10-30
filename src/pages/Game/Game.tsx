@@ -17,7 +17,6 @@ import "./index.scss";
 
 const Game: React.FC = () => {
   const { numberQuestion, questions, openMenu } = useSelector(selectQuestion);
-  console.log("console")
 
   const dispatch = useDispatch();
 
