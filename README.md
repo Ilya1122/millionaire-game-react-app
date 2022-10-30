@@ -14,4 +14,5 @@
 * React Router Dom 6.4.2
 * Hooks
 * ESlint
+* GitHub CI
 * node-sass
