@@ -8,14 +8,14 @@ init:
     matrix:
       node-varsion: [ 16.x ]
     steps:
-      - uses: actions/checkout@v3
-      - name: Staring Node.js ${{ matrix.node-version }}
+      uses: actions/checkout@v3
+      name: Staring Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-varsion: ${{ matrix.node-version }}
-    - name: install modules
+    name: install modules
       run: npm install
-    - name: build project
+    name: build project
       run: npm run build
-    - name: lint code
+    name: lint code
       run: npm run lint
