@@ -13,9 +13,9 @@ init:
       uses: actions/setup-node@v3
       with:
         node-varsion: ${{ matrix.node-version }}
-    name: install modules
-      run: npm install
-    name: build project
-      run: npm run build
-    name: lint code
-      run: npm run lint
+      name: install modules
+        run: npm install
+      name: build project
+        run: npm run build
+      name: lint code
+        run: npm run lint
