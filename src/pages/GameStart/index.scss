@@ -1,0 +1,20 @@
+@import 'styles/variables.scss';
+
+.game__title {
+  margin-bottom: 30px;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 116%;
+  color: $primary-black;
+
+  @media (max-width: 1200px) {
+    margin: 20px 0;
+  }
+
+  @media (max-width: 700px) {
+    text-align: center;
+    font-size: 32px;
+  }
+}

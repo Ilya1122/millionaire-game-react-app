@@ -1,0 +1,90 @@
+@import './variables.scss';
+
+@mixin home-button() {
+  background-color: $accent-color;
+  border-radius: .6rem;
+  color: #fff;
+  width: 296px;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+
+  &:active {
+    background-color: $active-color;
+  }
+}
+
+@mixin flex($justify: flex-start, $align: flex-start, $wrap: nowrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+@mixin hexagon($width, $line-width, $line-left, $bor-rad, $line-right, $perspective) {
+  position: relative;
+
+  .top-hexagon,
+  .bottom-hexagon {
+    position: absolute;
+    content: '';
+    width: $width;
+    left: 0px;
+    height: 50%;
+    background-color: #fff;
+    border-radius: $bor-rad;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: $line-width;
+      height: 1px;
+      background-color: $hexagon-border;
+    }
+  }
+
+  .top-hexagon {
+    transform: perspective($perspective) rotateX(3deg);
+    border: 1px solid $hexagon-border;
+    border-bottom: none;
+    top: 0;
+
+    &::before {
+      left: $line-left;
+      top: 95%;
+    }
+  }
+
+  .bottom-hexagon {
+    top: 50%;
+    transform: perspective($perspective) rotateX(-3deg);
+    border: 1px solid $hexagon-border;
+    border-top: none;
+
+    &::before {
+      right: $line-right;
+    }
+  }
+}
+
+@mixin hexagon-colored($border-color, $bg-color: #fff) {
+  .top-hexagon,
+  .bottom-hexagon {
+    background-color: $bg-color;
+
+    &::before {
+      background-color: $border-color;
+    }
+  }
+
+  .top-hexagon {
+    border: 1px solid $border-color;
+    border-bottom: none;
+  }
+
+  .bottom-hexagon {
+    border: 1px solid $border-color;
+    border-top: none;
+  }
+}

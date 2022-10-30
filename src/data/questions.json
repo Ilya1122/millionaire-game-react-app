@@ -1,0 +1,252 @@
+[{
+  "question": "HTML stands for?",
+  "answers":[
+    {
+        "correct": true,
+        "answer": "HyperText Markup Language?"
+    },
+    {
+        "correct": false,
+        "answer": "Holidays turn me lazy"
+    },
+    {
+        "correct": false,
+        "answer": "How to meet ladies"
+    },
+    {
+        "correct": false,
+        "answer": "Ham toast my love"
+    }
+  ]
+},
+{
+  "question": "How to impress a normal person?",
+  "answers":[
+    {
+        "correct": false,
+        "answer": "money"
+    },
+    {
+        "correct": false,
+        "answer": "happy Life"
+    },
+    {
+        "correct": false,
+        "answer": "talents"
+    },
+    {
+        "correct": true,
+        "answer": "using the terminal in front of a person"
+    }
+  ]
+},
+{
+  "question": "Who has the biggest birth rate?",
+  "answers":[
+    {
+        "correct": false,
+        "answer": "people"
+    },
+    {
+        "correct": true,
+        "answer": "javaScript frameworks"
+    },
+    {
+        "correct": false,
+        "answer": "rabbits"
+    },
+    {
+        "correct": false,
+        "answer": "cockroaches"
+    }
+  ]
+},
+{
+  "question": "What's the heaviest thing in the world?",
+  "answers":[
+    {
+        "correct": false,
+        "answer":"planet earth"
+    },
+    {
+        "correct": false,
+        "answer":"universe"
+    },
+    {
+        "correct": true,
+        "answer":"node modules"
+    },
+    {
+        "correct": false,
+        "answer":"bags after shopping"
+    }
+  ]
+},
+{
+  "question": "What is the worst headache?",
+  "answers":[
+    {
+        "correct": false,
+        "answer": "migraine"
+    },
+    {
+        "correct": false,
+        "answer": "stress"
+    },
+    {
+        "correct": false,
+        "answer": "sinusitis"
+    },
+    {
+        "correct": true,
+        "answer": "reading another programmer's code"
+    }
+  ]
+},
+{
+  "question": "What to do when the code doesn't work?",
+  "answers":[
+    {
+        "correct": true,
+        "answer": "scream at the computer"
+    },
+    {
+        "correct": true,
+        "answer": "stack overflow"
+    },
+    {
+        "correct": true,
+        "answer": "sleep"
+    },
+    {
+        "correct": true,
+        "answer": "restart a computer"
+    }
+  ]
+},
+{
+  "question": "Which computer is the best for showing the code?",
+  "answers":[
+    {
+        "correct": false,
+        "answer":"client computer"
+    },
+    {
+        "correct": false,
+        "answer":"senior developer's computer"
+    },
+    {
+        "correct": false,
+        "answer":"mom's computer"
+    },
+    {
+        "correct": true,
+        "answer":"the one the code is working on"
+    }
+  ]
+},
+{
+  "question": "How to pass tests?",
+  "answers":[
+    {
+        "correct": false,
+        "answer": "write good code"
+    },
+    {
+        "correct": false,
+        "answer": "let someone else write the code"
+    },
+    {
+        "correct": true,
+        "answer": "delete tests"
+    },
+    {
+        "correct": true,
+        "answer": "don't write tests"
+    }
+  ]
+},
+{
+  "question": "How to write good code?",
+  "answers":[
+    {
+        "correct": true,
+        "answer": "copy from stack overflow"
+    },
+    {
+        "correct": false,
+        "answer": "read books"
+    },
+    {
+        "correct": false,
+        "answer": "practice a lot"
+    },
+    {
+        "correct": false,
+        "answer": "go to courses"
+    }
+  ]
+},
+{
+  "question": "How to make sure you don't get fired from work?",
+  "answers":[
+    {
+        "correct": false,
+        "answer": "be a cool specialist"
+    },
+    {
+        "correct": true,
+        "answer": "give variables names that only you can understand"
+    },
+    {
+        "correct": false,
+        "answer": "be proactive"
+    },
+    {
+        "correct": false,
+        "answer": "try your best"
+    }
+  ]
+},
+{
+  "question": "After what you can call yourself a programmer?",
+  "answers":[
+    {
+        "correct": false,
+        "answer": "you changed one line of code in open source project"
+    },
+    {
+        "correct": false,
+        "answer": "after writing to-do-list app"
+    },
+    {
+        "correct": false,
+        "answer": "got a job"
+    },
+    {
+        "correct": true,
+        "answer": "you understand memes about developers"
+    }
+  ]
+},
+{
+  "question": "{} + [] === ?",
+  "answers":[
+    {
+        "correct": true,
+        "answer": "What?"
+    },
+    {
+        "correct": false,
+        "answer": "[object Object]"
+    },
+    {
+        "correct": true,
+        "answer": "0"
+    },
+    {
+        "correct": false,
+        "answer": "NaN"
+    }
+  ]
+}]

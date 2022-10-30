@@ -1,0 +1,42 @@
+@import 'styles/variables.scss';
+
+.title__end {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 116%;
+  color: $primary-black;
+  opacity: 0.5;
+
+  @media (max-width: 1200px) {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+}
+
+.subTitle__end {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 116%;
+  color: $primary-black;
+  margin: 10px 0 60px 0;
+
+  @media (max-width: 1200px) {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+}
